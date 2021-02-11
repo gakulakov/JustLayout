@@ -1,0 +1,19 @@
+.button {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 200px;
+    cursor: pointer;
+
+    font-family: Roboto, sans-serif;
+}
+
+.button:hover {
+    background: #E8C300;
+    transition: all ease-in-out 0.5s;
+}
+
+.active {
+    background: #E8C300;
+}

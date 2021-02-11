@@ -1,0 +1,33 @@
+.main {
+    padding: 5% 7%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    align-items: center;
+    color: white;
+}
+
+.image {
+    width: 475px;
+    height: 475px;
+    box-shadow: 0 0 50px #000;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+    margin-left: 25%;
+}
+
+.postTitle {
+    font-weight: bold;
+}
+
+.blockName {
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
