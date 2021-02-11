@@ -1,13 +1,13 @@
 import React from 'react';
-import classes from './BlockTwo.module.css'
+import classes from './BlockFour.module.css'
 import {H1} from "../H1/H1";
 import {Board} from "../Board/Board";
 
-export const BlockTwo = ({image}) => {
+export const BlockFour = ({image}) => {
     return (
-        <Board >
+        <Board img={'../../assets/backgroundThree.png'}>
             <div className={classes.blockName}>
-                <p>OUR TEAM</p>
+                <p>SPECIALTIES</p>
             </div>
             <div className={classes.main}>
                 <div>
@@ -16,7 +16,7 @@ export const BlockTwo = ({image}) => {
 
                 <div className={classes.text}>
                     <H1>
-                        MASTER CHEF
+                        CHOCOLATE PANCAKES
                     </H1>
                     <p className={classes.postTitle}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,

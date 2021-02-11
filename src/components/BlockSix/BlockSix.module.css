@@ -16,11 +16,24 @@
 
 .text{
     text-align: center;
-    margin-left: 25%;
+}
+
+.text p:last-child{
+    margin: 0 auto;
+    max-width: 550px;
 }
 
 .postTitle {
     font-weight: bold;
+}
+
+.info {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    padding-bottom: 50px;
+    margin: 0;
 }
 
 .blockName {

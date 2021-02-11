@@ -14,7 +14,7 @@
 .image {
     width: 475px;
     height: 475px;
-    box-shadow: 0 0 50px #cccccc;
+    box-shadow: 0 0 50px #000;
     border-radius: 5px;
 }
 
@@ -25,4 +25,20 @@
 
 .postTitle {
     font-weight: bold;
+}
+
+.allInputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.groupInputs {
+    display: grid;
+    margin: 0 5px;
+}
+
+.workingHours {
+    text-align: center;
+    margin: 0 7% 100px;
+    color: rgba(51, 51, 51, 0.5);
 }

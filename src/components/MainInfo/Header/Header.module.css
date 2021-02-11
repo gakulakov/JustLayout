@@ -1,0 +1,17 @@
+.mainContainer {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0 7%;
+    padding: 2% 0;
+}
+
+.items {
+    cursor: pointer;
+    user-select: none;
+}

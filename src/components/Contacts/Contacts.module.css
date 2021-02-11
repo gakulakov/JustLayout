@@ -1,0 +1,50 @@
+.main {
+    margin-bottom: 100px;
+}
+
+.text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text p:last-child {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.inputs {
+    margin: 0 17%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.textArea {
+    width: 100%;
+    height: 120px;
+    margin: 5px 4px;
+    border-radius: 5px;
+    background: #E5E5E5;
+    border: none;
+    padding-left: 10px;
+}
+
+.ulInfo {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    list-style: none;
+    padding: 0;
+}
+
+.list {
+    margin-right: 25px;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+

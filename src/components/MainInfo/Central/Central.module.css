@@ -1,0 +1,68 @@
+.title {
+    text-align: center;
+    margin-top: 12%;
+}
+
+.restaurantName{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 100px;
+    color: #fff;
+    margin-top: 0;
+
+}
+
+.restaurant {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.date {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 400px;
+    left: -100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+
+    align-items: center;
+}
+
+.logo img {
+    height: 20px;
+}
+
+.containerLogo {
+    position: absolute;
+    right: 130px;
+}
+
+.vector {
+    cursor: pointer;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: #cccccc;
+    width: 50px;
+    height: 50px;
+}

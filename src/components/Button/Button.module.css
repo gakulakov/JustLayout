@@ -5,6 +5,9 @@
     margin-right: 40px;
     width: 200px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
 
     font-family: Roboto, sans-serif;
 }
@@ -12,6 +15,8 @@
 .button:hover {
     background: #E8C300;
     transition: all ease-in-out 0.5s;
+    color: #fff;
+
 }
 
 .active {

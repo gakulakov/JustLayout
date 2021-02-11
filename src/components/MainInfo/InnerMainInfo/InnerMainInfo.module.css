@@ -1,0 +1,8 @@
+.main {
+    /*height: 9000px;*/
+    /*width: 1900px;*/
+    background-image: url("../../../assets/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 0 30px #000000;
+}
