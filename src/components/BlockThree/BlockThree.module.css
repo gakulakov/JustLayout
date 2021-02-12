@@ -4,6 +4,7 @@
     justify-content: space-between;
     font-family: Roboto, sans-serif;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -12,15 +13,13 @@
 }
 
 .image {
-    width: 475px;
-    height: 475px;
     box-shadow: 0 0 50px #000;
     border-radius: 5px;
 }
 
 .text{
     text-align: center;
-    margin-right: 25%;
+    /*margin-right: 25%;*/
 }
 
 .postTitle {
@@ -41,4 +40,23 @@
     text-align: center;
     margin: 0 7% 100px;
     color: rgba(51, 51, 51, 0.5);
+}
+
+@media (max-width: 1230px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .image {
+        max-width: 350px;
+    }
+    .allInputs {
+        flex-direction: column;
+    }
+    .groupInputs {
+        margin: 0 auto;
+    }
 }

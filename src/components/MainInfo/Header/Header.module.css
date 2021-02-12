@@ -3,6 +3,14 @@
     font-family: Roboto, sans-serif;
 }
 
+@media (max-width: 1200px) {
+    .list{
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .list {
     display: flex;
     justify-content: space-between;

@@ -35,7 +35,6 @@
     justify-content: space-between;
     float: left;
     list-style: none;
-    padding: 0;
 }
 
 .list {
@@ -48,3 +47,39 @@
     width: 100%;
 }
 
+@media (max-width: 1200px) {
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .text {
+        padding-bottom: 50px;
+    }
+    .info {
+        visibility: hidden;
+    }
+    .tools {
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .ulInfo {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .image {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .image {
+        max-width: 250px;
+    }
+    .menuList p:first-child {
+        font-size: 14px;
+    }
+
+}

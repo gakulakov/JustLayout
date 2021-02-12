@@ -23,7 +23,9 @@ export const Contacts = () => {
                         <li className={classes.list}><strong>+40 729 131 637/+40 726 458 782</strong></li>
                         <li className={classes.list}><strong>office@mindblister.com</strong></li>
                     </ul>
-                    <Button value={'SEND MESSAGE'} width={450} margin={0}/>
+                    <Button value={'SEND MESSAGE'}
+                            width={window.innerWidth <= 1000 ? window.innerWidth <= 400 ? window.innerWidth / 2 : 300 : 450}
+                            margin={window.innerWidth <= 600 ? '0, auto' : 0}/>
                 </div>
             </div>
         </div>

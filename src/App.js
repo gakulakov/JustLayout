@@ -16,8 +16,8 @@ import 'simplebar/dist/simplebar.min.css';
 function App() {
     console.log(window)
     return (
-            <div className={classes.App}>
-        <SimpleBar forceVisible="y" autoHide={false} style={{maxHeight: window.innerHeight}}>
+        <div className={classes.App}>
+            {/*<SimpleBar forceVisible="y" autoHide={false} style={{maxHeight: window.innerHeight}}>*/}
                 <InnerMainInfo/>
                 <Block
                     title={'About Us'}
@@ -36,8 +36,8 @@ function App() {
                 <Gallery/>
                 <Contacts/>
                 <Footer/>
-        </SimpleBar>
-            </div>
+            {/*</SimpleBar>*/}
+        </div>
     );
 }
 

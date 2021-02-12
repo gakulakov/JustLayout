@@ -6,3 +6,9 @@
     background-size: 100%;
     box-shadow: 0 0 30px #000000;
 }
+
+@media (max-width: 1200px) {
+    .main {
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+    }
+}

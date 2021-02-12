@@ -8,8 +8,6 @@
 }
 
 .image {
-    width: 475px;
-    height: 475px;
     box-shadow: 0 0 50px #000;
     border-radius: 5px;
 }
@@ -43,4 +41,34 @@
     font-family: Roboto, sans-serif;
     font-weight: 500;
     letter-spacing: 5px;
+}
+
+@media (max-width: 1200px) {
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+    }
+    .text {
+        padding-bottom: 50px;
+    }
+    .info {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    .image {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .image {
+        max-width: 250px;
+    }
+    .menuList p:first-child {
+        font-size: 14px;
+    }
+
 }

@@ -25,7 +25,6 @@
     flex-wrap: wrap;
     flex-direction: row-reverse;
     display: flex;
-    max-height: 400px;
     margin: 50px 7%;
 }
 
@@ -64,3 +63,26 @@
     margin: 0;
 }
 
+@media (max-width: 1200px) {
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .image {
+        max-width: 250px;
+    }
+    .menuList p:first-child {
+        font-size: 14px;
+    }
+
+}

@@ -7,16 +7,39 @@
     color: white;
 }
 
+@media (max-width: 1370px) {
+    .main {
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+    }
+    .text {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .image {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    .image {
+        max-width: 250px;
+    }
+}
+
 .image {
-    width: 475px;
-    height: 475px;
+
     box-shadow: 0 0 50px #000;
     border-radius: 5px;
 }
 
 .text{
     text-align: center;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
+    max-width: 800px;
 }
 
 .postTitle {
